@@ -8,7 +8,8 @@ cantidad_artefactos <- sample(1:150, n_registros, replace = TRUE)
 
 archaeological_data <- data.frame(
   yacimiento = yacimiento,
-  tipo_artefacto = tipo_artefacto 
+  tipo_artefacto = tipo_artefacto,
+  cantidad_artefactos = cantidad_artefactos
 )
-
+print(archaeological_data)
 
